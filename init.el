@@ -67,3 +67,7 @@
   (global-undo-tree-mode)
   :custom
   (evil-undo-system 'undo-tree))
+
+(use-package elpy
+  :init
+  (elpy-enable))
